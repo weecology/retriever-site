@@ -7,13 +7,14 @@ fa-icon: rocket
 
 ### Installation
 
-If you have Python installed use `pip` from the terminal:
+If you have Python installed use pip from the terminal
+([additional install instructions](#install)):
 
 ```
 pip install retriever
 ```
 
-To install the associated R package use `install.packages` in R:
+To install the associated R package use install.packages in R:
 
 ```
 install.packages('rdataretriever')
