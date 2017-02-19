@@ -33,13 +33,15 @@ List available datasets:
 retriever ls
 ```
 
-Install a dataset into csv files:
+Install the [Portal dataset](https://github.com/weecology/portaldata) into csv
+files:
 
 ```
-retriever install csv iris
+retriever install csv portal
 ```
 
-Install a dataset into an SQLite database named iris.sqlite:
+Install the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris/) into
+an SQLite database named iris.sqlite:
 
 ```
 retriever install sqlite iris -f iris.sqlite
@@ -56,16 +58,20 @@ List available datasets:
 retriever::datasets()
 ```
 
-Install a dataset into sqlite:
+Install the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris/) into
+SQLite:
 
 ```
 retriever::install('iris', 'sqlite')
 ```
 
-Download and load data directly into R:
+Download and load
+[data on forest fires](https://archive.ics.uci.edu/ml/datasets/Forest+Fires)
+directly into R:
 
 ```
 iris_data <- retriever::fetch('iris')
 ```
 
-See the [documentation](#documentation) for more commands and details.
+See the [documentation](#documentation) for more commands, details, and
+datasets.
