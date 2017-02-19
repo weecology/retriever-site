@@ -5,6 +5,11 @@ color: white   #text color
 fa-icon: rocket
 ---
 
+The Data Retriever is written in Python and run using a command line interface
+or an associated R package. It installs publicly available data into a variety
+of databases (MySQL, PostgreSQL, SQLite, MS Access) and file formats (csv, json,
+xml).
+
 ### Installation
 
 If you have Python installed use pip from the terminal
@@ -34,11 +39,14 @@ Install a dataset into csv files:
 retriever install csv iris
 ```
 
-Install a dataset into an SQLite database:
+Install a dataset into an SQLite database named iris.sqlite:
 
 ```
 retriever install sqlite iris -f iris.sqlite
 ```
+
+Available install formats are: mysql, postgres, sqlite, access, csv, json, and
+xml.
 
 ### R interface
 
@@ -54,8 +62,10 @@ Install a dataset into sqlite:
 retriever::install('iris', 'sqlite')
 ```
 
-Download and fetch data directly into R:
+Download and load data directly into R:
 
 ```
 iris_data <- retriever::fetch('iris')
 ```
+
+See the [documentation](#documentation) for more commands and details.
