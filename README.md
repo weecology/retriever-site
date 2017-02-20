@@ -7,4 +7,4 @@ available
 [https://github.com/weecology/retriever](https://github.com/weecology/retriever).
 
 This site was built using the
-[SinglePaged theme](https://github.com/t413/SinglePaged) by Tim O’Brien [t413.com](t413.com).
+[SinglePaged theme](https://github.com/t413/SinglePaged) by Tim O’Brien [t413.com](http://t413.com).
