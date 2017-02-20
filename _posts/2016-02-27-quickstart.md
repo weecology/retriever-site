@@ -19,10 +19,10 @@ If you have Python installed use pip from the terminal
 pip install retriever
 ```
 
-To install the associated R package use install.packages in R:
+To install the associated R package:
 
 ```
-install.packages('rdataretriever')
+devtools::install_github("ropensci/rdataretriever")
 ```
 
 ### Command line interface
