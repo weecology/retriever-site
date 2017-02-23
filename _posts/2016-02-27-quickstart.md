@@ -55,14 +55,14 @@ xml.
 List available datasets:
 
 ```
-retriever::datasets()
+rdataretriever::datasets()
 ```
 
 Install the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris/) into
 SQLite:
 
 ```
-retriever::install('iris', 'sqlite')
+rdataretriever::install('iris', 'sqlite')
 ```
 
 Download and load
@@ -70,7 +70,7 @@ Download and load
 directly into R:
 
 ```
-iris_data <- retriever::fetch('iris')
+iris_data <- rdataretriever::fetch('iris')
 ```
 
 See the [documentation](#documentation) for more commands, details, and
