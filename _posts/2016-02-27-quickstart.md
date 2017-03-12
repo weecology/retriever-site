@@ -22,7 +22,7 @@ pip install retriever
 To install the associated R package:
 
 ```
-devtools::install_github("ropensci/rdataretriever")
+install.packages('rdataretriever')
 ```
 
 ### Command line interface
