@@ -14,4 +14,4 @@ on [Read the Docs](https://readthedocs.org/) and includes details on:
 * [The contributor Code of Conduct](https://retriever.readthedocs.io/en/latest/code_of_conduct.html)
 * The [Developer's guide](https://retriever.readthedocs.io/en/latest/developer.html)
 for people interested in contributing to project.
-* [R package documentation](https://cran.r-project.org/web/packages/ecoretriever/ecoretriever.pdf) is available on CRAN.
+* [R package documentation](https://cran.r-project.org/web/packages/rdataretriever/rdataretriever.pdf) is available on CRAN.
