@@ -73,5 +73,5 @@ directly into R:
 iris_data <- rdataretriever::fetch('iris')
 ```
 
-See the [documentation](#documentation) for more commands, details, and
+See the [documentation](#docs) for more commands, details, and
 datasets.
