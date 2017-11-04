@@ -19,6 +19,12 @@ If you have Python installed use pip from the terminal
 pip install retriever
 ```
 
+or install using conda:
+
+```
+conda install retriever -c conda-forge
+```
+
 To install the associated R package:
 
 ```
