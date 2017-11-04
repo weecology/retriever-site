@@ -56,6 +56,27 @@ retriever install sqlite iris -f iris.sqlite
 Available install formats are: mysql, postgres, sqlite, access, csv, json, and
 xml.
 
+### Python interface
+
+Import:
+
+```
+import retriever as rt
+```
+
+List available datasets:
+
+```
+rt.dataset_names()
+```
+
+Install the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris/) into
+SQLite:
+
+```
+rt.install_sqlite('iris')
+```
+
 ### R interface
 
 List available datasets:
