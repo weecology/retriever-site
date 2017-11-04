@@ -11,6 +11,7 @@ permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
+repository: https://github.com/weecology/retriever-site
 
 
 ### content configuration ###
