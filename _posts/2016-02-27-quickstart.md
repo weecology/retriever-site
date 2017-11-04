@@ -97,7 +97,7 @@ Download and load
 directly into R:
 
 ```
-iris_data <- rdataretriever::fetch('iris')
+iris_data <- rdataretriever::fetch('forest-fires-portugal')
 ```
 
 See the [documentation](#docs) for more commands, details, and
